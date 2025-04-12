@@ -11,7 +11,7 @@ const getWeather = async (req, res) => {
     try {
         const response = await axios.get("http://api.weatherapi.com/v1/forecast.json", {
             params: {
-                key: "-",
+                key: "8b958b93b2234672bb084829251204",
                 q: location,
                 days:3
             },
