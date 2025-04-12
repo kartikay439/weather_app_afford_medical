@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/weather': {
-        target: 'http://localhost:5000',
+        target: 'http://15.206.185.30:8000',
         changeOrigin: true,
         rewrite: path => path.replace(/^\/weather/, '/weather'),
       },

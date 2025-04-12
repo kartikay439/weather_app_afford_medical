@@ -16,5 +16,5 @@ import routes from "./route/weather.routes.js";
 app.use(routes);
 
 
-const PORT = 5000;
+const PORT = 8000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

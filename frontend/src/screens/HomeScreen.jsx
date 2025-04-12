@@ -29,7 +29,7 @@ export const HomeScreen = () => {
 
     return (
         <>
-            {/* Search Bar */}
+
             <div className="searchBarWrap">
                 <form onSubmit={handleSubmit}>
                     <input
